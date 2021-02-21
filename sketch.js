@@ -1,20 +1,16 @@
 var Hr,Min,Sec;
-var backgroundImg;
 
-function preload(){
-  backgroundImg=loadImage("Modern.jpg");
-  circleImg=loadImage("circle.png")
-  TimeImg=loadImage("Time.png")
-}
+
+
 
 function setup() {
   createCanvas(1366,625);
  circle=createSprite(683,312,1,1);
- circle.addImage(circleImg)
+
  circle.scale=2.71
 
  Time=createSprite(683,312,1,1);
- Time.addImage(TimeImg);
+
  Time.scale=0.65
 
 }
